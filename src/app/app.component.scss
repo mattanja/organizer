@@ -1,0 +1,42 @@
+p,span {
+  font-family: Lato, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+mat-grid-tile.flexTile {
+  background-color: green;
+}
+
+mat-grid-list.toolbar {
+  background-color: #3366cc;
+  width: 100%;
+}
+
+mat-grid-list.calendar {
+  background-color: #000000;
+}
+
+mat-grid-list.calendar mat-grid-tile {
+  background: #ffffff;
+}
+
+mat-grid-tile.dot {
+  flex: 1;
+}
+
+mat-grid-tile.dot-drag-over span.dot {
+  background-color: aqua;
+}
+
+mat-grid-tile.dot span.dot {
+  position: absolute;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+
+mat-grid-tile.dot:hover span.dot {
+  border-color: #000000;
+  background-color: rgba(175, 175, 175, 0.5);
+  cursor: pointer;
+}
